@@ -1,0 +1,10 @@
+class MyWidget extends statelesswidget {
+final String productName;
+final String ProductImage;
+final String ProductDetails;
+MyWidget(this.productName,this.ProductImage,this.ProductDetails);
+@override
+Widget build(BuildContext context) {
+return Scaffold(
+body:Text('tasneem')
+);}
